@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luan Pereira - Desenvolvedor Frontend</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+  
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">LP</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá!🖖</p>
+          <h1>Sou o Luan Pereira</h1>
+          <h2>Desenvolvedor Frontend</h2>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/luan-pereira-dev/" target="_blank" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/+5521974110983" target="_blank" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/luanpoa" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
+            <a href="https://instagram.com/luanzitores" target="_blank" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="src/imagens/foto-perfil.png" alt="foto do perfil do Luan" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/foto-perfil.png" alt="foto sobre mim" class="outer-shadow" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Me chamo Luan Pereira e sou um desenvolvedor frontend em formação!</strong>
+            Gosto MUITO da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
+          </p>
+
+          <p>
+           Estou sempre me desafiando com novos projetos e participando de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já aprendi. 😁
+          </p>
+
+          <p>
+            Ah, gosto de jogos, filmes, séries, animes e outras nerdices. 💜
+          </p>
+
+          <div class="botoes">
+            <a href="src\imagens\cv.pdf" target="_blank" class="botao outer-shadow">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+        <div class="informacoes javascript">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <p>Uma das, se não a principal ferramenta do Frontend, aqui a "magia" acontece, eu fiquei realmente encantado com o JS. Com ele eu posso dar vida a literalmente tudo e isso me chamou tanta atenção que hoje em dia o JS é o que eu mais estudo e busco me aperfeiçoar cada dia mais.</p>
+        </div>
+
+        <div class="informacoes html">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+          <p>A primeira ferramenta que aprendi quando entrei nesse mundo de programação, aqui que eu despejo todas minhas ideias e começo meus projetos. Hoje já estou bastante aprofundado em HTML, porém sempre tem novas coisas pra se aprender e melhorar.</p>
+        </div>
+
+        <div class="informacoes css">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+          <h3>CSS3</h3>
+          <p>CSS foi umas das ferramentas que mais me chamou atenção durante meus estudos e projetos, com ele eu consigo tirar as ideias do estático e transformar elas, deixando um pouco mais fluído e bonito.</p>
+        </div>
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+          <h3>GitHub</h3>
+          <p>Github é a plataforma perfeita para armazenar meus projetos e treinar com projetos de outras pessoas, lá é onde busco projetos para ajudar a comunidade e me ajudar a ficar melhor também, e lá também é o local onde armazeno meus códigos.</p>
+        </div>
+
+        <div class="informacoes git">
+          <div class="logo">
+            <i class="devicon devicon-git-plain" id="git"></i>
+          </div>
+          <h3>Git</h3>
+          <p>Como falei do GitHub era impossível não citar o GIT, com ele se torna possível tudo aquilo que fazemos no GitHub, mostrando os registros de mudanças e coordenando o trabalho de duas ou mais pessoas, tornando assim o trabalho remoto extremamente mais simplificado.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">        
+          <a href="https://luanpoa.github.io/projeto-landing-page/" target="_blank">
+            <img src=src\imagens\projeto-1_resized.png alt="Landing Page"/>
+            <h3>Landing page</h3>
+            <div class="informacoes-projeto">          
+              <p>Projeto Landing page feito usando HTML, CSS e JavaScript.</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>     
+          </a>
+        </div>
+
+        <div class="projeto">        
+          <a href="https://luanpoa.github.io/Otaku-coffee/" target="_blank">
+            <img src=src\imagens\projeto-2.png alt="Otaku Coffee" />
+            <h3>Otaku Coffee</h3>
+            <div class="informacoes-projeto">          
+              <p>Projeto cafeteria feito usando HTML e CSS.</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>      
+          </a>          
+        </div>
+
+        <div class="projeto">     
+          <a href="https://luanpoa.github.io/xmen-projeto/" target="_blank">
+            <img src="src\imagens\projeto-4.png" alt="Projeto Xmen" />
+            <h3>Projeto Xmen</h3>
+            <div class="informacoes-projeto">
+              <p>Meu projeto de XMEN usando HTML, CSS e Javascript.</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>   
+        </div>
+
+        <div class="projeto">
+          <a href="https://luanpoa.github.io/projeto-lol-final/" target="_blank">
+            <img src=src\imagens\projeto-3.png alt="Personagens de Ionia" />
+            <h3>Personagens de Ionia</h3>
+            <div class="informacoes-projeto">
+              <p>Meu primeiro projeto usando HTML, CSS e JavaScript.</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/luan-pereira-dev/" target="_blank" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://wa.me/+5521974110983" target="_blank" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://github.com/luanpoa" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
+        <a href="https://instagram.com/luanzitores" target="_blank" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
